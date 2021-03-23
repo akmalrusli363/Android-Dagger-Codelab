@@ -8,5 +8,5 @@ import dagger.Module
 @Module
 abstract class StorageModule {
     @Binds
-    abstract fun provideStorage(storage:SharedPreferencesStorage):Storage
+    abstract fun provideStorage(storage: SharedPreferencesStorage): Storage
 }
